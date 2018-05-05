@@ -7,17 +7,16 @@ class Header extends Component {
 			<div>
 				<nav>
 					<div className="nav-wrapper">
-						<Link to={'/carlofrancisco'} className="left-brand-logo">
+						<Link to={'/'} className="left-brand-logo">
 							<img src={require('../images/logo.svg')} alt="about" width="3%" />
 						</Link>
 						<Link
-							to={'/carlofrancisco'}
+							to={'/'}
 							data-target="mobile-demo"
 							className="sidenav-trigger"
 						>
 							<i className="material-icons">menu</i>
 							<img src={require('../images/logo.svg')} alt="about" width="3%" />
-
 						</Link>
 						<ul className="right hide-on-med-and-down">
 							<li>
