@@ -1,11 +1,12 @@
 {
-  "main.css": "static/css/main.65ebd213.css",
-  "main.css.map": "static/css/main.65ebd213.css.map",
-  "main.js": "static/js/main.6a43f7e9.js",
-  "main.js.map": "static/js/main.6a43f7e9.js.map",
-  "static/media/about-1.svg": "static/media/about-1.5a07c485.svg",
-  "static/media/bg_img.jpg": "static/media/bg_img.366e57d4.jpg",
-  "static/media/projects-1.svg": "static/media/projects-1.5a07c485.svg",
-  "static/media/resume-1.svg": "static/media/resume-1.5a07c485.svg",
-  "static/media/skills-1.svg": "static/media/skills-1.5a07c485.svg"
+  "main.css": "static/css/main.d2cc3471.css",
+  "main.css.map": "static/css/main.d2cc3471.css.map",
+  "main.js": "static/js/main.bef071c4.js",
+  "main.js.map": "static/js/main.bef071c4.js.map",
+  "static/media/about.svg": "static/media/about.0b2a8bf9.svg",
+  "static/media/bg_img.jpg": "static/media/bg_img.c87436be.jpg",
+  "static/media/logo.svg": "static/media/logo.30072654.svg",
+  "static/media/projects.svg": "static/media/projects.0bbceba1.svg",
+  "static/media/resume.svg": "static/media/resume.c22f10b2.svg",
+  "static/media/skills.svg": "static/media/skills.91606002.svg"
 }
