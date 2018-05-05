@@ -10,11 +10,11 @@ class Landing extends Component {
 					<h6>FULL STACK DEVELOPER</h6>
 				</div>
 				<div className="row icon-list">
-					<div className="col s3 m3 l3">
+					<div className="col s6 m3 l3">
 						<figure>
 							<Link to={'/about'} activeClassName="active">
 								<img
-									src={require('../images/about.svg')}
+									src={require('../images/about-1.svg')}
 									alt="about"
 									width="70%"
 								/>
@@ -22,11 +22,11 @@ class Landing extends Component {
 							</Link>
 						</figure>
 					</div>
-					<div className="col s3 m3 l3">
+					<div className="col s6 m3 l3">
 						<figure>
 							<Link to={'/projects'} activeClassName="active">
 								<img
-									src={require('../images/projects.svg')}
+									src={require('../images/projects-1.svg')}
 									alt="projects"
 									width="70%"
 								/>
@@ -34,11 +34,11 @@ class Landing extends Component {
 							</Link>
 						</figure>
 					</div>
-					<div className="col s3 m3 l3">
+					<div className="col s6 m3 l3">
 						<figure>
 							<Link to={'/skills'} activeClassName="active">
 								<img
-									src={require('../images/skills.svg')}
+									src={require('../images/skills-1.svg')}
 									alt="skills"
 									width="70%"
 								/>
@@ -46,11 +46,11 @@ class Landing extends Component {
 							</Link>
 						</figure>
 					</div>
-					<div className="col s3 m3 l3">
+					<div className="col s6 m3 l3">
 						<figure>
 							<Link to={'/resume'} activeClassName="active">
 								<img
-									src={require('../images/resume.svg')}
+									src={require('../images/resume-1.svg')}
 									alt="resume"
 									width="70%"
 								/>
