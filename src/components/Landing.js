@@ -14,7 +14,7 @@ class Landing extends Component {
 						<figure>
 							<Link to={'/about'} activeClassName="active">
 								<img
-									src={require('../images/about-1.svg')}
+									src={require('../images/about.svg')}
 									alt="about"
 									width="70%"
 								/>
@@ -26,7 +26,7 @@ class Landing extends Component {
 						<figure>
 							<Link to={'/projects'} activeClassName="active">
 								<img
-									src={require('../images/projects-1.svg')}
+									src={require('../images/projects.svg')}
 									alt="projects"
 									width="70%"
 								/>
@@ -38,7 +38,7 @@ class Landing extends Component {
 						<figure>
 							<Link to={'/skills'} activeClassName="active">
 								<img
-									src={require('../images/skills-1.svg')}
+									src={require('../images/skills.svg')}
 									alt="skills"
 									width="70%"
 								/>
@@ -50,7 +50,7 @@ class Landing extends Component {
 						<figure>
 							<Link to={'/resume'} activeClassName="active">
 								<img
-									src={require('../images/resume-1.svg')}
+									src={require('../images/resume.svg')}
 									alt="resume"
 									width="70%"
 								/>

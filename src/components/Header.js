@@ -7,12 +7,8 @@ class Header extends Component {
 			<div>
 				<nav>
 					<div className="nav-wrapper">
-						<Link
-							to={'/carlofrancisco'}
-							className="left-brand-log"
-							style={{ margin: '10px' }}
-						>
-							Carlo Francisco
+						<Link to={'/carlofrancisco'} className="left-brand-logo">
+							<img src={require('../images/logo.svg')} alt="about" width="3%" />
 						</Link>
 						<Link
 							to={'/carlofrancisco'}
@@ -20,6 +16,8 @@ class Header extends Component {
 							className="sidenav-trigger"
 						>
 							<i className="material-icons">menu</i>
+							<img src={require('../images/logo.svg')} alt="about" width="3%" />
+
 						</Link>
 						<ul className="right hide-on-med-and-down">
 							<li>
