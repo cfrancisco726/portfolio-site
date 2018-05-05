@@ -16,7 +16,7 @@
 		"eject": "react-scripts eject",
 		"deploy": "npm run build&&gh-pages -d build"
 	},
-	"homepage": "https://cfrancisco726.github.io",
+	"homepage": "https://cfrancisco726.github.io/carlofrancisco",
 	"devDependencies": {
 		"gh-pages": "^1.1.0"
 	}
