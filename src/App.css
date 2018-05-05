@@ -1,10 +1,68 @@
 html {
 	height: 100%;
+	width: 100%;
 }
 
 body {
 	background: url('./images/bg_img.jpg');
-	background-size: contain;
-	background-position: top;
-	background: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+.nav-wrapper {
+	background-color: black;
+}
+
+.landing {
+	text-align: center;
+	display: inline;
+	margin: 0 auto;
+	color: white;
+	width: 5;
+}
+
+.banner-text {
+	text-align: center;
+	letter-spacing: 8px;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	color: white;
+
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.icon-list {
+	padding-bottom: 5%;
+}
+.icon-list figure {
+	margin: auto;
+	text-align: center;
+}
+
+.icon-list figcaption {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10%;
+	color: white;
+}
+
+.social-links {
+	padding-left: 30%;
+	padding-right: 30%;
+}
+.social-links i {
+	color: white;
+	font-size: 2em;
+}
+
+.active{
+	color:green;
 }
