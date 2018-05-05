@@ -8,14 +8,14 @@ class Header extends Component {
 				<nav>
 					<div className="nav-wrapper">
 						<Link
-							to={'/'}
+							to={'/carlofrancisco'}
 							className="left-brand-log"
 							style={{ margin: '10px' }}
 						>
 							Carlo Francisco
 						</Link>
 						<Link
-							to={'/'}
+							to={'/carlofrancisco'}
 							data-target="mobile-demo"
 							className="sidenav-trigger"
 						>
