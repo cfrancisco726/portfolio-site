@@ -5,7 +5,7 @@ class Header extends Component {
 	render() {
 		return (
 			<div>
-				<nav>
+				<nav className="transparent z-depth-0">
 					<div className="nav-wrapper">
 						<Link to={'/'} className="left-brand-logo">
 							<img src={require('../images/logo.svg')} alt="about" width="3%" />
