@@ -38,7 +38,7 @@ class Landing extends Component {
 						<figure>
 							<Link to={'/skills'} activeClassName="active">
 								<img
-									src={require('../images/skills.svg')}
+									src={require('../images/skills-1.svg')}
 									alt="skills"
 									width="70%"
 								/>

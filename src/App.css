@@ -26,6 +26,10 @@ body {
 	margin-left: 10px;
 }
 
+.transparent {
+	padding-top: 10px;
+}
+
 .banner-text {
 	text-align: center;
 	letter-spacing: 8px;
@@ -66,4 +70,8 @@ h1 {
 
 .active {
 	color: green;
+}
+
+.material-icons{
+	color: white;
 }
