@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import About from './About';
 import { Link } from 'react-router-dom';
 
 class Landing extends Component {
@@ -11,16 +12,7 @@ class Landing extends Component {
 				</div>
 				<div className="row icon-list">
 					<div className="col s6 m3 l3">
-						<figure>
-							<Link to={'/about'} activeClassName="active">
-								<img
-									src={require('../images/about.svg')}
-									alt="about"
-									width="70%"
-								/>
-								<figcaption>about</figcaption>
-							</Link>
-						</figure>
+						<About />
 					</div>
 					<div className="col s6 m3 l3">
 						<figure>
