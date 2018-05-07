@@ -7,7 +7,14 @@ class Header extends Component {
 		var elem = document.querySelector('.sidenav');
 		var instance = M.Sidenav.init(elem, {
 			edge: 'left',
-			onCloseEnd: null
+			outDuration: 100
+		});
+	}
+
+	closeNav() {
+		var elem = document.querySelector('.sidenav');
+		var instance = M.Sidenav.init(elem, {
+			edge: 'left'
 		});
 	}
 
@@ -51,20 +58,27 @@ class Header extends Component {
 
 				<ul className="sidenav" id="mobile-demo">
 					<li>
-						<NavLink to={'/about'} activeClassName="sidenav-close">about</NavLink>
+						<NavLink to={'/'} onClick="sidenav-close">
+							home
+						</NavLink>
 					</li>
 					<li>
-						<NavLink to={'/projects'} activeClassName="sidenav-close">
+						<NavLink to={'/about'} onClick="sidenav-close">
+							about
+						</NavLink>
+					</li>
+					<li>
+						<NavLink to={'/projects'} onClick="sidenav-close">
 							projects
 						</NavLink>
 					</li>
 					<li>
-						<NavLink to={'/skills'} activeClassName="sidenav-close">
+						<NavLink to={'/skills'} onClick="sidenav-close">
 							skills
 						</NavLink>
 					</li>
 					<li>
-						<NavLink to={'/resume'} activeClassName="sidenav-close">
+						<NavLink to={'/resume'} onClick="sidenav-close">
 							resume
 						</NavLink>
 					</li>
