@@ -11,46 +11,37 @@ class Header extends Component {
 		});
 	}
 
-	closeNav() {
-		var elem = document.querySelector('.sidenav');
-		var instance = M.Sidenav.init(elem, {
-			edge: 'left'
-		});
-	}
-
 	render() {
 		return (
 			<div>
-				<nav className="transparent">
+				<nav className="transparent z-depth-0">
 					<div className="nav-wrapper">
-						<Link to={'/'} className="left-brand-logo">
-							<img
-								src={require('../images/logo-1.svg')}
-								alt="about"
-								width="3%"
-							/>
-						</Link>
 						<Link
 							to={'/'}
 							data-target="mobile-demo"
 							className="sidenav-trigger"
 						>
-							<i className="material-icons">menu</i>
+							<i class="material-icons">menu</i>
 						</Link>
 						<ul className="right hide-on-med-and-down">
 							<li>
+								<Link to={'/'} className="left-brand-logo">
+									Home
+								</Link>
+							</li>
+							<li>
 								<NavLink to={'/about'} activeClassName="active">
-									about
+									About
 								</NavLink>
 							</li>
 							<li>
-								<NavLink to={'/projects'}>projects</NavLink>
+								<NavLink to={'/projects'}>Projects</NavLink>
 							</li>
 							<li>
-								<NavLink to={'/skills'}>skills</NavLink>
+								<NavLink to={'/skills'}>Skills</NavLink>
 							</li>
 							<li>
-								<NavLink to={'/resume'}>resume</NavLink>
+								<NavLink to={'/resume'}>Resume</NavLink>
 							</li>
 						</ul>
 					</div>
