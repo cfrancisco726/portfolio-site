@@ -6,6 +6,8 @@ class Header extends Component {
 	componentDidMount() {
 		var elem = document.querySelector('.sidenav');
 		var instance = M.Sidenav.init(elem, {
+			edge: 'left',
+			onCloseEnd: null
 		});
 	}
 
@@ -49,18 +51,22 @@ class Header extends Component {
 
 				<ul className="sidenav" id="mobile-demo">
 					<li>
-						<NavLink to={'/about'} activeClassName="active">
-							about
+						<NavLink to={'/about'} activeClassName="sidenav-close">about</NavLink>
+					</li>
+					<li>
+						<NavLink to={'/projects'} activeClassName="sidenav-close">
+							projects
 						</NavLink>
 					</li>
 					<li>
-						<NavLink to={'/projects'}>projects</NavLink>
+						<NavLink to={'/skills'} activeClassName="sidenav-close">
+							skills
+						</NavLink>
 					</li>
 					<li>
-						<NavLink to={'/skills'}>skills</NavLink>
-					</li>
-					<li>
-						<NavLink to={'/resume'}>resume</NavLink>
+						<NavLink to={'/resume'} activeClassName="sidenav-close">
+							resume
+						</NavLink>
 					</li>
 				</ul>
 			</div>
