@@ -51,6 +51,10 @@ h1 {
 	width: 70%;
 }
 
+.icon:hover {
+	opacity: 0.5;
+}
+
 .icon-list figcaption {
 	text-transform: uppercase;
 	text-align: center;
@@ -68,10 +72,14 @@ h1 {
 	font-size: 2em;
 }
 
-.active {
-	color: green;
-}
-
 .material-icons {
 	color: white;
+}
+
+.btn {
+	background-color: black;
+}
+
+.btn:hover {
+	background-color: gray;
 }

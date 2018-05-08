@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import About from './About';
-import { Link } from 'react-router-dom';
+import Projects from './Projects';
 
 class Landing extends Component {
 	render() {
@@ -12,42 +12,53 @@ class Landing extends Component {
 				</div>
 				<div className="row icon-list">
 					<div className="col s6 m3 l3">
+						<figure className="icon">
+							<a className="modal-trigger" href="#modal1">
+								<img
+									src={require('../images/about.svg')}
+									alt="about"
+									width="70%"
+								/>
+								<figcaption>about</figcaption>
+							</a>
+						</figure>
 						<About />
 					</div>
 					<div className="col s6 m3 l3">
-						<figure>
-							<Link to={'/projects'} activeClassName="active">
+						<figure className="icon">
+							<a className="modal-trigger" href="#modal2">
 								<img
 									src={require('../images/projects.svg')}
 									alt="projects"
 									width="70%"
 								/>
 								<figcaption>projects</figcaption>
-							</Link>
+							</a>
 						</figure>
+						<Projects />
 					</div>
 					<div className="col s6 m3 l3">
-						<figure>
-							<Link to={'/skills'} activeClassName="active">
+						<figure className="icon">
+							<a className="modal-trigger" href="#modal3">
 								<img
 									src={require('../images/skills-1.svg')}
 									alt="skills"
 									width="70%"
 								/>
 								<figcaption>skills</figcaption>
-							</Link>
+							</a>
 						</figure>
 					</div>
 					<div className="col s6 m3 l3">
-						<figure>
-							<Link to={'/resume'} activeClassName="active">
+						<figure className="icon">
+							<a to={'/resume'} activeClassName="active">
 								<img
 									src={require('../images/resume.svg')}
 									alt="resume"
 									width="70%"
 								/>
 								<figcaption>resume</figcaption>
-							</Link>
+							</a>
 						</figure>
 					</div>
 				</div>
@@ -58,7 +69,7 @@ class Landing extends Component {
 							rel="noopener noreferrer"
 							target="_blank"
 						>
-							<i className="fab fa-linkedin" aria-hidden="true" />
+							<i className="fab fa-linkedin icon" aria-hidden="true" />
 						</a>
 					</div>
 					<div className="col s4 m4 l4">
@@ -67,7 +78,7 @@ class Landing extends Component {
 							rel="noopener noreferrer"
 							target="_blank"
 						>
-							<i className="fab fa-github-square" aria-hidden="true" />
+							<i className="fab fa-github-square icon" aria-hidden="true" />
 						</a>
 					</div>
 					<div className="col s4 m4 l4">
@@ -76,7 +87,7 @@ class Landing extends Component {
 							rel="noopener noreferrer"
 							target="_blank"
 						>
-							<i className="fas fa-envelope" aria-hidden="true" />
+							<i className="fas fa-envelope icon" aria-hidden="true" />
 						</a>
 					</div>
 				</div>

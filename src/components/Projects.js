@@ -7,22 +7,31 @@ class Projects extends Component {
 	}
 	render() {
 		return (
-			<div className="row">
-				<div className="col s5 m5">
-					<div className="card blue-grey darken-1">
-						<div className="card-content white-text">
-							<span className="card-title">Project "1"</span>
-							<p>
-								I am a very simple card. I am good at containing small bits of
-								information. I am convenient because I require little markup to
-								use effectively.
-							</p>
-						</div>
-						<div className="card-action">
-							<a href="#">github</a>
-							<a href="#">live Demo</a>
-						</div>
+			<div id="modal2" className="modal">
+				<div className="modal-content">
+					<div class=" right-align">
+						<button className="btn modal-close">x</button>
 					</div>
+					<h6>Project 1: Mail Monkey</h6>
+
+					<img
+						src={require('../images/mail_monkey_img.jpg')}
+						alt="projects"
+						width="100%"
+					/>
+
+					<p>
+						Mail Monkey allows users to send and track surveys via email. Users
+						create add credits in order to send emails to their customers. Their
+						profile page displays a history of the emails sent, along with a bar
+						chart of how their customers responded. Languages: some words go
+						here some words go here.
+					</p>
+					<p>
+						<a href="https://surveyapps726.herokuapp.com" target="_blank">
+							LIVE DEMO
+						</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://github.com/cfrancisco726/MailMonkey" target="_blank">GITHUB</a>
+					</p>
 				</div>
 			</div>
 		);
