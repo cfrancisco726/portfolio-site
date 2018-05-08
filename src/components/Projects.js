@@ -30,7 +30,12 @@ class Projects extends Component {
 					<p>
 						<a href="https://surveyapps726.herokuapp.com" target="_blank">
 							LIVE DEMO
-						</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://github.com/cfrancisco726/MailMonkey" target="_blank">GITHUB</a>
+						</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
+							href="https://github.com/cfrancisco726/MailMonkey"
+							target="_blank"
+						>
+							GITHUB
+						</a>
 					</p>
 				</div>
 			</div>

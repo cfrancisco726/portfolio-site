@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import About from './About';
 import Projects from './Projects';
+import Skills from './Skills';
 
 class Landing extends Component {
 	render() {
@@ -41,17 +42,22 @@ class Landing extends Component {
 						<figure className="icon">
 							<a className="modal-trigger" href="#modal3">
 								<img
-									src={require('../images/skills-1.svg')}
+									src={require('../images/skills.svg')}
 									alt="skills"
 									width="70%"
 								/>
 								<figcaption>skills</figcaption>
 							</a>
 						</figure>
+						<Skills />
 					</div>
 					<div className="col s6 m3 l3">
 						<figure className="icon">
-							<a to={'/resume'} activeClassName="active">
+							<a
+								href="https://drive.google.com/file/d/1eKNHWCkEekgICb3sfJwy9i-0YtyBrFxV/view?usp=sharing"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
 								<img
 									src={require('../images/resume.svg')}
 									alt="resume"
@@ -65,7 +71,7 @@ class Landing extends Component {
 				<div className="row social-links">
 					<div className="col s4 m3 l4">
 						<a
-							href="http://google.com"
+							href="https://www.linkedin.com/in/cfrancisco726"
 							rel="noopener noreferrer"
 							target="_blank"
 						>
@@ -74,7 +80,7 @@ class Landing extends Component {
 					</div>
 					<div className="col s4 m4 l4">
 						<a
-							href="http://google.com"
+							href="https://github.com/cfrancisco726"
 							rel="noopener noreferrer"
 							target="_blank"
 						>
@@ -83,9 +89,9 @@ class Landing extends Component {
 					</div>
 					<div className="col s4 m4 l4">
 						<a
-							href="http://google.com"
+							href="mailto:cfrancisco726@gmail.com"
 							rel="noopener noreferrer"
-							target="_blank"
+							target="_top"
 						>
 							<i className="fas fa-envelope icon" aria-hidden="true" />
 						</a>
