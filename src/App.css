@@ -64,8 +64,11 @@ h1 {
 }
 
 .social-links {
-	padding-left: 30%;
-	padding-right: 30%;
+	/*padding-left: 30%;
+	padding-right: 30%;*/
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
 }
 .social-links i {
 	color: white;
