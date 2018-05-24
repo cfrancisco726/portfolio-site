@@ -64,8 +64,6 @@ h1 {
 }
 
 .social-links {
-	/*padding-left: 30%;
-	padding-right: 30%;*/
 	text-align: center;
 	margin-left: 30%;
 	margin-right: 30%;
@@ -80,9 +78,19 @@ h1 {
 }
 
 .btn {
-	background-color: black;
+	background-color: transparent;
+	box-shadow: none;
+	color: black;
+	border-radius: 50%;
 }
 
 .btn:hover {
-	background-color: gray;
+	background-color: #dcdcdc;
+	border-radius: 50%;
+	box-shadow: none;
+}
+
+.modal-title {
+	font-weight: bold;
+	font-size: 125%;
 }

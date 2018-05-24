@@ -14,44 +14,27 @@ class About extends Component {
 				<div id="modal1" className="modal">
 					<div className="modal-content">
 						<div className=" right-align">
-							<button className="btn modal-close">x</button>
+							<button className="btn modal-close">&times;</button>
 						</div>
-						<h4>About Header</h4>
+						<p className="modal-title">About me</p>
+						<img
+							src={require('../images/profile-img.jpg')}
+							alt="profile"
+							width="30%"
+						/>
 						<p>
-							Contrary to popular belief, Lorem Ipsum is not simply random text.
-							It has roots in a piece of classical Latin literature from 45 BC,
-							making it over 2000 years old. Richard McClintock, a Latin
-							professor at Hampden-Sydney College in Virginia, looked up one of
-							the more obscure Latin words, consectetur, from a Lorem Ipsum
-							passage, and going through the cites of the word in classical
-							literature, discovered the undoubtable source. Lorem Ipsum comes
-							from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-							Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
-							BC. This book is a treatise on the theory of ethics, very popular
-							during the Renaissance. The first line of Lorem Ipsum, "Lorem
-							ipsum dolor sit amet..", comes from a line in section 1.10.32. The
-							standard chunk of Lorem Ipsum used since the 1500s is reproduced
-							below for those interested. Sections 1.10.32 and 1.10.33 from "de
-							Finibus Bonorum et Malorum" by Cicero are also reproduced in their
-							exact original form, accompanied by English versions from the 1914
-							translation by H. Rackham. Contrary to popular belief, Lorem Ipsum
-							is not simply random text. It has roots in a piece of classical
-							Latin literature from 45 BC, making it over 2000 years old.
-							Richard McClintock, a Latin professor at Hampden-Sydney College in
-							Virginia, looked up one of the more obscure Latin words,
-							consectetur, from a Lorem Ipsum passage, and going through the
-							cites of the word in classical literature, discovered the
-							undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
-							1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good
-							and Evil) by Cicero, written in 45 BC. This book is a treatise on
-							the theory of ethics, very popular during the Renaissance. The
-							first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
-							from a line in section 1.10.32. The standard chunk of Lorem Ipsum
-							used since the 1500s is reproduced below for those interested.
-							Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
-							by Cicero are also reproduced in their exact original form,
-							accompanied by English versions from the 1914 translation by H.
-							Rackham.
+							Full Stack Developer with 8 years of experience in Investment
+							Banking Operations and 4 years playing Poker professionally. The
+							analytical skills I acquired from working in finance along with
+							the problem solving techniques needed in poker, have strongly
+							influenced the way I approach programming. Poker is about looking
+							at every angle, building a story, and solving a puzzle, much like
+							coding. I loved figuring out my opponent just like I obsess about
+							how to put pieces of an app together. In 2017, I graduated from
+							DevBootCamp in NYC. The experience has fed my thirst for coding.
+							Currently developing my skills in Javascript, React, MongoDB,
+							Node.js, Express and I am interested in joining a team where I can
+							continue to grow as a developer.
 						</p>
 					</div>
 				</div>

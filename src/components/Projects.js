@@ -10,23 +10,25 @@ class Projects extends Component {
 			<div id="modal2" className="modal">
 				<div className="modal-content">
 					<div class=" right-align">
-						<button className="btn modal-close">x</button>
+						<button className="btn modal-close">&times;</button>
 					</div>
-					<h6>Project 1: Mail Monkey</h6>
+					<p className="modal-title">Projects</p>
+					<p>Mail Monkey</p>
 
 					<img
-						src={require('../images/mail_monkey_img.jpg')}
+						src={require('../images/mail_monkey.png')}
 						alt="projects"
 						width="100%"
 					/>
 
 					<p>
 						Mail Monkey allows users to send and track surveys via email. Users
-						create add credits in order to send emails to their customers. Their
+						pay to add credits in order to send emails to their customers. Their
 						profile page displays a history of the emails sent, along with a bar
-						chart of how their customers responded. Languages: some words go
-						here some words go here.
+						chart of how their customers responded. Built with React Redux,
+						MongoDB, Express and Node.js.
 					</p>
+					<p>APIs and Services: Google Oauth, Stripe and Sendgrid</p>
 					<p>
 						<a href="https://surveyapps726.herokuapp.com" target="_blank">
 							LIVE DEMO
