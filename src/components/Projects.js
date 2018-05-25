@@ -25,24 +25,28 @@ class Projects extends Component {
 						<strong>APIs and Services:</strong> Google Oauth, Stripe and
 						Sendgrid.
 					</p>
-					<a href="https://surveyapps726.herokuapp.com" target="_blank">
-						<img
-							src={require('../images/mail_monkey.png')}
-							alt="projects"
-							width="100%"
-						/>
-					</a>
-
-					<p>
+					<div className="project-img">
 						<a href="https://surveyapps726.herokuapp.com" target="_blank">
-							LIVE DEMO
-						</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
-							href="https://github.com/cfrancisco726/MailMonkey"
-							target="_blank"
-						>
-							GITHUB
+							<img
+								src={require('../images/mail_monkey_img.png')}
+								alt="projects"
+								width="80%"
+								padding-top="20%"
+							/>
 						</a>
-					</p>
+					</div>
+					<div className="project-links">
+						<p>
+							<a href="https://surveyapps726.herokuapp.com" target="_blank">
+								LIVE DEMO
+							</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
+								href="https://github.com/cfrancisco726/MailMonkey"
+								target="_blank"
+							>
+								GITHUB
+							</a>
+						</p>
+					</div>
 				</div>
 			</div>
 		);

@@ -142,3 +142,19 @@ p {
 :focus {
 	outline: none;
 }
+
+.project-img {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.project-links {
+	text-align: center;
+}
+.project-links a {
+	color: white;
+}
+
+.project-links a:hover {
+	color: #a9a9a9;
+}
