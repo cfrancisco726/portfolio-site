@@ -63,6 +63,14 @@ h1 {
 	color: white;
 }
 
+.devicons li {
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+}
+.devicons li i {
+	font-size: 5em;
+}
+
 .social-links {
 	text-align: center;
 	margin-left: 30%;
@@ -90,7 +98,17 @@ h1 {
 	box-shadow: none;
 }
 
+.modal {
+	background-color: #d3d3d3;
+	border-color: #d3d3d3;
+	opacity: 0.2;
+	user-select: none;
+}
 .modal-title {
 	font-weight: bold;
 	font-size: 125%;
+}
+
+:focus {
+	outline: none;
 }

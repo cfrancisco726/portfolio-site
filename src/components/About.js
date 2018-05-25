@@ -33,8 +33,8 @@ class About extends Component {
 							how to put pieces of an app together. In 2017, I graduated from
 							DevBootCamp in NYC. The experience has fed my thirst for coding.
 							Currently developing my skills in Javascript, React, MongoDB,
-							Node.js, Express and I am interested in joining a team where I can
-							continue to grow as a developer.
+							Node.js and Express. I am interested in joining a team where I can
+							continue to grow and contribute as a developer.
 						</p>
 					</div>
 				</div>

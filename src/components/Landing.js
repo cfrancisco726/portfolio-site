@@ -54,7 +54,7 @@ class Landing extends Component {
 					<div className="col s6 m3 l3">
 						<figure className="icon">
 							<a
-								href="https://drive.google.com/file/d/1eKNHWCkEekgICb3sfJwy9i-0YtyBrFxV/view?usp=sharing"
+								href="https://drive.google.com/file/d/1FX0qic7sPV3pEOpPRtfsQssp5oIadIF8/view?usp=sharing"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
