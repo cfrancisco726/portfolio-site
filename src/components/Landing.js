@@ -18,7 +18,7 @@ class Landing extends Component {
 								<img
 									src={require('../images/about.svg')}
 									alt="about"
-									width="70%"
+									width="40%"
 								/>
 								<figcaption>about</figcaption>
 							</a>
@@ -31,7 +31,7 @@ class Landing extends Component {
 								<img
 									src={require('../images/projects.svg')}
 									alt="projects"
-									width="70%"
+									width="40%"
 								/>
 								<figcaption>projects</figcaption>
 							</a>
@@ -44,7 +44,7 @@ class Landing extends Component {
 								<img
 									src={require('../images/skills.svg')}
 									alt="skills"
-									width="70%"
+									width="40%"
 								/>
 								<figcaption>skills</figcaption>
 							</a>
@@ -54,14 +54,14 @@ class Landing extends Component {
 					<div className="col s6 m3 l3">
 						<figure className="icon">
 							<a
-								href="https://drive.google.com/file/d/1FX0qic7sPV3pEOpPRtfsQssp5oIadIF8/view?usp=sharing"
+								href="https://drive.google.com/file/d/1WGVVXQyvSyhKvd0lqXMIr17hQgpKYF1v/view?usp=sharing"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
 								<img
 									src={require('../images/resume.svg')}
 									alt="resume"
-									width="70%"
+									width="40%"
 								/>
 								<figcaption>resume</figcaption>
 							</a>

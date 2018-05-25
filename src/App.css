@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	background: url('./images/bg_img.jpg');
+	background: url('./images/bg_noblur_img.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -39,16 +39,30 @@ body {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 36px;
+	font-weight: 300;
+	padding-top: 40px;
 }
 
-.icon-list {
-	padding-bottom: 5%;
+h6 {
+	font-size: 16px;
 }
+
+p {
+	font-size: 14px;
+	line-height: 180%;
+	font-weight: 300;
+}
+
+.row {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 .icon-list figure {
 	margin: auto;
 	text-align: center;
-	width: 70%;
+	font-weight: 300;
 }
 
 .icon:hover {
@@ -63,22 +77,28 @@ h1 {
 	color: white;
 }
 
+.social-links {
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-top: 5%;
+}
+.social-links i {
+	color: white;
+	font-size: 2em;
+}
+
+.devicons {
+	text-align: center;
+}
+
 .devicons li {
 	display: inline-block;
 	margin: 10px 10px 10px 10px;
 }
 .devicons li i {
-	font-size: 5em;
-}
-
-.social-links {
-	text-align: center;
-	margin-left: 30%;
-	margin-right: 30%;
-}
-.social-links i {
 	color: white;
-	font-size: 2em;
+	font-size: 4em;
 }
 
 .material-icons {
@@ -88,25 +108,36 @@ h1 {
 .btn {
 	background-color: transparent;
 	box-shadow: none;
-	color: black;
+	color: white;
 	border-radius: 50%;
 }
 
 .btn:hover {
-	background-color: #dcdcdc;
+	background-color: #2e242c;
 	border-radius: 50%;
 	box-shadow: none;
 }
 
 .modal {
-	background-color: #d3d3d3;
-	border-color: #d3d3d3;
-	opacity: 0.2;
+	max-height: calc(100% - 100px);
+	transform: translate(-50%, -50%);
+	background-color: #1b1b1b;
 	user-select: none;
+	color: white;
 }
+
 .modal-title {
-	font-weight: bold;
+	font-weight: 300;
 	font-size: 125%;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0px;
+}
+
+.profile-img {
+	float: right;
+	width: 35%;
+	padding-left: 20px;
 }
 
 :focus {
