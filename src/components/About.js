@@ -25,12 +25,8 @@ class About extends Component {
 						<p>
 							Full Stack Developer with 8 years of experience in Investment
 							Banking Operations. The analytical skills I acquired from working
-							in finance along with the problem solving techniques needed in
-							playing professional poker, have strongly influenced the way I
-							approach programming. Poker is about looking at every angle,
-							building a story, and solving a puzzle, much like coding. I enjoy
-							figuring out all the pieces needed to put an app or website
-							together. In 2017, I graduated from DevBootCamp in NYC. The
+							in finance have strongly influenced the way I
+							approach programming. In 2017, I graduated from DevBootCamp in NYC. The
 							experience has fed my thirst for coding. I am currently developing
 							my skills in Javascript, React, MongoDB, Node.js and Express. I am
 							interested in joining a team where I can continue to grow and
