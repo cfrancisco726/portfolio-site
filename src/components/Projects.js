@@ -76,10 +76,11 @@ class Projects extends Component {
 										GITHUB
 									</a>
 								</p>
+							</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 		);
 	}
 }
