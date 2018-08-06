@@ -12,7 +12,7 @@ class Landing extends Component {
 					<h6>FULL STACK DEVELOPER</h6>
 				</div>
 				<div className="row icon-list">
-					<div className="col s6 m3 l6">
+					<div className="col s6 m3 l3">
 						<figure className="icon">
 							<a className="modal-trigger" href="#modal1">
 								<img
