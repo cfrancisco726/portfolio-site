@@ -23,14 +23,14 @@ class About extends Component {
 							class="profile-img"
 						/>
 						<p>
-							Full Stack Developer with 8 years of experience in Investment
-							Banking Operations. The analytical skills I acquired from working
-							in finance have strongly influenced the way I
-							approach programming. In 2017, I graduated from DevBootCamp in NYC. The
-							experience has fed my thirst for coding. I am currently developing
-							my skills in Javascript, React, MongoDB, Node.js and Express. I am
-							interested in joining a team where I can continue to grow and
-							contribute as a developer.
+							Full Stack Developer with an interest in delivering solutions that
+							combine clean code with well thought-out user-experience.
+							Possesses a leadership quality as exemplified in being team lead
+							at DevBootCamp in NYC. With 8 years of prior experience in
+							Investment Banking Operations–now using the analytical skills
+							acquired from finance to inform my methodological approach to
+							coding. Currently developing my skills in Javascript, React,
+							MongoDB, NodeJS and ExpressJS.
 						</p>
 					</div>
 				</div>

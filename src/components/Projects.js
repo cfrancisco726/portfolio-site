@@ -20,9 +20,9 @@ class Projects extends Component {
 							bar chart of how their customers responded.{' '}
 						</p>
 						<p>
-							<strong>Built with:</strong> React Redux, MongoDB, Express and
-							Node.js.<br />
-							<strong>APIs and Services:</strong> Google Oauth, Stripe and
+							<strong>Built with:</strong> React Redux, MongoDB, ExpressJS,
+							NodeJS and Materialize<br />
+							<strong>APIs:</strong> Google Oauth, Stripe and
 							Sendgrid.
 						</p>
 						<div className="project-img">
@@ -49,14 +49,18 @@ class Projects extends Component {
 						</div>
 						<div className="project-2">
 							<p>
-								Vinyl Records is a content management system that allows users to purchase records and  admin to update the content.
+								Vinyl Records is a content management system that allows users
+								to purchase records and admin to update the content.
 							</p>
 							<p>
-								<strong>Built with:</strong> React Redux, MongoDB, Express and
+								<strong>Built with:</strong> React Redux, MongoDB, ExpressJS and
 								Node.js.<br />
 							</p>
 							<div className="project-img">
-								<a href="http://recordstorec.rn8d3he9wv.us-east-1.elasticbeanstalk.com/" target="_blank">
+								<a
+									href="http://recordstorec.rn8d3he9wv.us-east-1.elasticbeanstalk.com/"
+									target="_blank"
+								>
 									<img
 										src={require('../images/vinyl_records_sample.png')}
 										alt="projects"
@@ -67,7 +71,10 @@ class Projects extends Component {
 							</div>
 							<div className="project-links">
 								<p>
-									<a href="http://recordstorec.rn8d3he9wv.us-east-1.elasticbeanstalk.com/" target="_blank">
+									<a
+										href="http://recordstorec.rn8d3he9wv.us-east-1.elasticbeanstalk.com/"
+										target="_blank"
+									>
 										LIVE DEMO
 									</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
 										href="https://github.com/cfrancisco726/Record_Store_CMS"
@@ -77,10 +84,10 @@ class Projects extends Component {
 									</a>
 								</p>
 							</div>
-							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 		);
 	}
 }
