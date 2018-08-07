@@ -15,14 +15,15 @@ class Projects extends Component {
 					<p className="modal-title">Projects</p>
 					<div className="project-1">
 						<p>
-							Mail Monkey allows users to send and track surveys via email. A
-							profile page displays a history of the emails sent, along with a
-							bar chart of how their customers responded.{' '}
+							<strong>Mail Monkey: </strong> &nbsp; Allows users to send and
+							track surveys via email. &nbsp; A profile page displays a history
+							of the emails sent, &nbsp; along with a bar chart of how their
+							customers responded.
 						</p>
 						<p>
-							<strong>Built with:</strong> React Redux, MongoDB, ExpressJS,
-							NodeJS and Materialize<br />
-							<strong>APIs:</strong> Google Oauth, Stripe and
+							<strong>Built with: </strong> &nbsp; React Redux, &nbsp; MongoDB,
+							ExpressJS, &nbsp; NodeJS and MaterializeCSS<br />
+							<strong>APIs:</strong> &nbsp; Google Oauth, &nbsp; Stripe and
 							Sendgrid.
 						</p>
 						<div className="project-img">
@@ -49,12 +50,14 @@ class Projects extends Component {
 						</div>
 						<div className="project-2">
 							<p>
-								Vinyl Records is a content management system that allows users
-								to purchase records and admin to update the content.
+								<strong>Vinyl Records: </strong> &nbsp; A content management
+								system that allows users to purchase records. &nbsp; An admin
+								panel allows the site owner to add, edit, or delete inventory on
+								the website.
 							</p>
 							<p>
-								<strong>Built with:</strong> React Redux, MongoDB, ExpressJS and
-								Node.js.<br />
+								<strong>Built with: </strong> &nbsp; React Redux, &nbsp;
+								MongoDB, &nbsp; ExpressJS, &nbsp; NodeJS and React-Boostrap<br />
 							</p>
 							<div className="project-img">
 								<a
@@ -62,7 +65,7 @@ class Projects extends Component {
 									target="_blank"
 								>
 									<img
-										src={require('../images/vinyl_records_sample.png')}
+										src={require('../images/Vinyl_records_home.png')}
 										alt="projects"
 										width="80%"
 										padding-top="20%"

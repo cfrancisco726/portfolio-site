@@ -29,8 +29,7 @@ class About extends Component {
 							at DevBootCamp in NYC. With 8 years of prior experience in
 							Investment Banking Operations–now using the analytical skills
 							acquired from finance to inform my methodological approach to
-							coding. Currently developing my skills in Javascript, React,
-							MongoDB, NodeJS and ExpressJS.
+							coding.
 						</p>
 					</div>
 				</div>
