@@ -21,7 +21,7 @@ class Projects extends Component {
 							customers responded.
 						</p>
 						<p>
-							<strong>Built with: </strong> &nbsp; React Redux, &nbsp; MongoDB,
+							<strong>Built with: </strong> &nbsp; React-Redux, &nbsp; MongoDB,
 							ExpressJS, &nbsp; NodeJS and MaterializeCSS<br />
 							<strong>APIs:</strong> &nbsp; Google Oauth, &nbsp; Stripe and
 							Sendgrid.
@@ -56,7 +56,7 @@ class Projects extends Component {
 								the website.
 							</p>
 							<p>
-								<strong>Built with: </strong> &nbsp; React Redux, &nbsp;
+								<strong>Built with: </strong> &nbsp; React-Redux, &nbsp;
 								MongoDB, &nbsp; ExpressJS, &nbsp; NodeJS and React-Boostrap<br />
 							</p>
 							<div className="project-img">
