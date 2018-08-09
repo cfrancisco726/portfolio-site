@@ -26,10 +26,10 @@ class About extends Component {
 							Full Stack Developer with an interest in delivering solutions that
 							combine clean code with well thought-out user-experience.
 							Possesses a leadership quality as exemplified in being team lead
-							at DevBootCamp in NYC. With 8 years of prior experience in
-							Investment Banking Operations–now using the analytical skills
-							acquired from finance to inform my methodological approach to
-							coding.
+							at DevBootCamp. Looking to utilize my professional experience as
+							an Investment Banking Operations Analyst to support a team of
+							developers by leveraging my analytical skills and ability to work
+							under pressure.
 						</p>
 					</div>
 				</div>
