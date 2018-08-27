@@ -61,7 +61,7 @@ class Projects extends Component {
 							</p>
 							<div className="project-img">
 								<a
-									href="http://recordstorec.rn8d3he9wv.us-east-1.elasticbeanstalk.com/"
+									href="https://vinyl-records.herokuapp.com/"
 									target="_blank"
 								>
 									<img
