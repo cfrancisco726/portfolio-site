@@ -159,3 +159,7 @@ p {
 .project-links a:hover {
 	color: #a9a9a9;
 }
+
+.modal-content {
+	margin-bottom: 10%;
+}
