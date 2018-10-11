@@ -31,6 +31,8 @@ class About extends Component {
 							developers by leveraging my analytical skills and ability to work
 							under pressure.
 						</p>
+						<br />
+						<br />
 					</div>
 				</div>
 			</div>
