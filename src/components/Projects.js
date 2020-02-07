@@ -13,6 +13,43 @@ class Projects extends Component {
 						<button className="btn modal-close">&times;</button>
 					</div>
 					<p className="modal-title">Projects</p>
+					<div className="project-4">
+						<p>
+							<strong>Next Gen Smile Care: </strong> Responsive website for dental practice, featuring a list of services, testimonials, and contact form.  Worked closely with client and designer on information architecture and UX prior to development. Utitlized Sketch to develop pixel-perfect website. 
+						</p>
+						<p>
+							<strong>Built with: </strong> React, React-Boostrap, EmailJS<br />
+							<strong>APIs:</strong> Google Maps
+						</p>
+						<div className="project-img">
+							<a
+								href=""
+								target="_blank"
+							>
+								<img
+									src={require('../images/next_gen_smile_care.png')}
+									alt="projects"
+									width="80%"
+									padding-top="20%"
+								/>
+							</a>
+						</div>
+						<div className="project-links">
+							<p>
+								<a
+									href=""
+									target="_blank"
+								>
+									LIVE DEMO
+								</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
+									href="https://github.com/cfrancisco726/next-gen-smile-care"
+									target="_blank"
+								>
+									GITHUB
+								</a>
+							</p>
+						</div>
+						</div>
 					<div className="project-1">
 						<p>
 							<strong>Wanderlust: </strong> Search for the cheapest flights
@@ -23,7 +60,7 @@ class Projects extends Component {
 						<p>
 							<strong>Built with: </strong> React-Redux, MongoDB, ExpressJS,
 							NodeJS and Material-UI<br />
-							<strong>APIs:</strong> Google Maps and Amadeus.
+							<strong>APIs:</strong> Google Maps and Amadeus
 						</p>
 						<div className="project-img">
 							<a
@@ -63,7 +100,7 @@ class Projects extends Component {
 							<p>
 								<strong>Built with: </strong> React-Redux, MongoDB, ExpressJS,
 								NodeJS and MaterializeCSS<br />
-								<strong>APIs:</strong> Google Oauth, Stripe and Sendgrid.
+								<strong>APIs:</strong> Google Oauth, Stripe and Sendgrid
 							</p>
 							<div className="project-img">
 								<a href="https://surveyapps726.herokuapp.com" target="_blank">
