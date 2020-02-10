@@ -37,7 +37,7 @@ class Projects extends Component {
 						<div className="project-links">
 							<p>
 								<a
-									href=""
+									href="www.nextgensmilecare.com"
 									target="_blank"
 								>
 									LIVE DEMO
