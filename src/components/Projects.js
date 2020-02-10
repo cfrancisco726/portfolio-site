@@ -23,7 +23,8 @@ class Projects extends Component {
 						</p>
 						<div className="project-img">
 							<a
-								href=""
+								href="http://nextgensmilecare.com"
+
 								target="_blank"
 							>
 								<img
@@ -37,7 +38,7 @@ class Projects extends Component {
 						<div className="project-links">
 							<p>
 								<a
-									href="www.nextgensmilecare.com"
+									href="http://nextgensmilecare.com"
 									target="_blank"
 								>
 									LIVE DEMO
