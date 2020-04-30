@@ -10,7 +10,7 @@ class Landing extends Component {
 			<div className="container">
 				<div className="banner-text">
 					<h1>CARLO FRANCISCO</h1>
-					<h6>FULL STACK DEVELOPER</h6>
+					<h6>FRONT END DEVELOPER</h6>
 				</div>
 				<div className="row icon-list">
 					<div className="col s6 m3 l3">

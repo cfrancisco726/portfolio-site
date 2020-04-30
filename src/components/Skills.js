@@ -55,6 +55,12 @@ class Skills extends Component {
 						<li>
 							<i className="devicon-jasmine-plain-wordmark" />
 						</li>
+						<li>
+							<i className="fab fa-php"></i>
+						</li>
+						<li>
+							<i class="fab fa-wordpress"></i>
+						</li>
 					</ul>
 				</div>
 			</div>
