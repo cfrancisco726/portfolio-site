@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import About from './About';
 import Projects from './Projects';
 import Skills from './Skills';
+import Resume from './Resume';
 
 class Landing extends Component {
 	render() {
@@ -52,20 +53,7 @@ class Landing extends Component {
 						<Skills />
 					</div>
 					<div className="col s6 m3 l3">
-						<figure className="icon">
-							<a
-								href="https://drive.google.com/file/d/1eIMbAnpn_ome60jsdUHe5Tnai3ubZJHD/view?usp=sharing"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								<img
-									src={require('../images/resume.svg')}
-									alt="resume"
-									width="40%"
-								/>
-								<figcaption>resume</figcaption>
-							</a>
-						</figure>
+						<Resume />
 					</div>
 				</div>
 				<div className="row social-links">
