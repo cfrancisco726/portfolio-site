@@ -16,16 +16,16 @@ class Projects extends Component {
 						<button className="btn modal-close">&times;</button>
 					</div>
 
-					<h1 className="title">Projects</h1>
+					<h1 className="modal-title">Projects</h1>
 
 					<div className="project">
 						<div className="nextgensmiles">
 							<div className="copy">
 								<p>
-									<strong>Next Gen Smile Care: </strong> Responsive website for dental practice, featuring a list of services, testimonials, and contact form.  Worked closely with client and designer on information architecture and UX prior to development. Utitlized Sketch to develop pixel-perfect website. 
+									<strong>Next Gen Smile Care: </strong> Responsive website for dental practice, featuring a list of services, testimonials, and contact form.  Worked closely with client and designer on information architecture and UX prior to development. Utitlized Sketch to develop pixel-perfect website. Also developed animated banner ads and email.
 								</p>
 								<p>
-									<strong>Built with: </strong> React, React-Boostrap, EmailJS<br />
+									<strong>Built with: </strong> React, React-Boostrap, EmailJS, JQuery<br />
 									<strong>APIs:</strong> Google Maps
 								</p>
 							</div>

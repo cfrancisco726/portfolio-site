@@ -125,7 +125,7 @@ p {
   color: white;
 }
 
-.modal .title {
+.modal-title {
   font-weight: 300;
   font-size: 125%;
   text-align: center;
