@@ -23,7 +23,7 @@ class About extends Component {
 							class="profile-img"
 						/>
 						<p>
-							Full Stack Developer with an interest in delivering solutions that
+							Front End Developer with an interest in delivering solutions that
 							combine clean code with well thought-out user-experience.
 							Possesses a leadership quality as exemplified in being team lead
 							at an immersive web development program. Looking to utilize my
