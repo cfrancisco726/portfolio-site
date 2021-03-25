@@ -19,6 +19,48 @@ class Projects extends Component {
 					<h1 className="modal-title">Projects</h1>
 
 					<div className="project">
+
+						<div className="dashboard">
+
+								<p>
+									<strong>Covid-19 Dashboard: </strong> Artifical Intelligence model that uses predictor sliders to see how 
+									increasing or decreasing restrictions affects the number of covid-19 cases.  Collaborated with Evolutionary Artifical Intelligence
+									group to integrate their existing model into cognizant.com and improve the UI/UX.
+								</p>
+
+								<p>
+									<strong>Built with: </strong> Python, Dash <br />
+								</p>
+
+								<div className="project-img">
+									<a
+										href="https://www.cognizant.com/pandemic-response"
+										target="_blank"
+									>
+										<img
+											src={require('../images/dashboard.png')}
+											alt="projects"
+											width="80%"
+											padding-top="20%"
+										/>
+									</a>
+								</div>
+
+								<div className="project-links">
+									<p>
+										<a
+											href="https://www.cognizant.com/pandemic-response"
+											target="_blank"
+										>
+											LIVE DEMO
+										</a>
+									</p>	
+								</div>
+						</div>
+					</div>
+
+
+					<div className="project">
 						<div className="nextgensmiles">
 							<div className="copy">
 								<p>
