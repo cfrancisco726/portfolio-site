@@ -29,7 +29,7 @@ class Projects extends Component {
 								</p>
 
 								<p>
-									<strong>Built with: </strong> Python, Dash <br />
+									<strong>Built with: </strong>Dash<br />
 								</p>
 
 								<div className="project-img">
