@@ -26,7 +26,6 @@ class About extends Component {
 							Front End Developer with a concentration in Javascript frameworks and libraries such as React JS. Currently working at a digital solutions company writing front end code, and improving website performance. 
 							Interested in opportunities to deliver solutions that
 							combine clean code with well thought-out user-experience.
-						
 						</p>
 					</div>
 				</div>
