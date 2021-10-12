@@ -17,6 +17,48 @@ class Projects extends Component {
           <h1 className="modal-title">Projects</h1>
 
           <div className="project">
+            <div className="dj_majestik">
+              <div className="copy">
+                <p>
+                  <strong>DJ Majestik: </strong> Responsive website for DJ/Radio
+                  Personality, featuring responsive background video, custom
+                  podcasts and upcoming events displayed in animated cards.
+                </p>
+                <p>
+                  <strong>Built with: </strong> Javscript, HTML5, CSS3
+                  <br />
+                </p>
+              </div>
+
+              <div className="project-img">
+                <a href="https://dj-majestik.netlify.app/" target="_blank">
+                  <img
+                    src={require("../images/dj_majestik_landing.png")}
+                    alt="projects"
+                    width="80%"
+                    padding-top="20%"
+                  />
+                </a>
+              </div>
+
+              <div className="project-links">
+                <p>
+                  <a href="https://dj-majestik.netlify.app/" target="_blank">
+                    LIVE DEMO
+                  </a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a
+                    href="https://github.com/cfrancisco726/DJ_Majestik"
+                    target="_blank"
+                  >
+                    GITHUB
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="project">
             <div className="dashboard">
               <p>
                 <strong>Covid-19 Dashboard: </strong> Artifical Intelligence
