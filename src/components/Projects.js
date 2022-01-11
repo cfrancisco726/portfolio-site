@@ -20,6 +20,54 @@ class Projects extends Component {
             <div className="dj_majestik">
               <div className="copy">
                 <p>
+                  <strong>DJ Majestik: </strong> Responsive server side rendered
+                  website displaying movie trailers and sorted by category
+                </p>
+                <p>
+                  <strong>Built with: </strong> React, NextJS, TailwindCSS
+                  <br />
+                  <strong>APIs:</strong> TMDB
+                </p>
+              </div>
+
+              <div className="project-img">
+                <a
+                  href="https://moviedb-nextjs-tailwind.vercel.app/"
+                  target="_blank"
+                >
+                  <img
+                    src={require("../images/moviedb.png")}
+                    alt="projects"
+                    width="80%"
+                    padding-top="20%"
+                  />
+                </a>
+              </div>
+
+              <div className="project-links">
+                <p>
+                  <a
+                    href="https://moviedb-nextjs-tailwind.vercel.app/"
+                    target="_blank"
+                  >
+                    LIVE DEMO
+                  </a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a
+                    href="https://github.com/cfrancisco726/moviedb-nextjs-tailwind"
+                    target="_blank"
+                  >
+                    GITHUB
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="project">
+            <div className="dj_majestik">
+              <div className="copy">
+                <p>
                   <strong>DJ Majestik: </strong> Responsive website for DJ/Radio
                   Personality, featuring responsive background video, custom
                   podcasts and upcoming events displayed in animated cards.
@@ -329,10 +377,10 @@ class Projects extends Component {
             </div>
             <div className="project-links">
               <p>
-                <a href="https://surveyapps726.herokuapp.com" target="_blank">
+                {/* <a href="https://surveyapps726.herokuapp.com" target="_blank">
                   LIVE DEMO
-                </a>
-                &nbsp;&nbsp;|&nbsp;&nbsp;
+                </a> */}
+                &nbsp;&nbsp;&nbsp;&nbsp;
                 <a
                   href="https://github.com/cfrancisco726/MailMonkey"
                   target="_blank"
@@ -368,13 +416,13 @@ class Projects extends Component {
               </div>
               <div className="project-links">
                 <p>
-                  <a
+                  {/* <a
                     href="https://vinyl-records.herokuapp.com/"
                     target="_blank"
                   >
                     LIVE DEMO
-                  </a>
-                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  </a> */}
+                  &nbsp;&nbsp;&nbsp;&nbsp;
                   <a
                     href="https://github.com/cfrancisco726/Record_Store_CMS"
                     target="_blank"
