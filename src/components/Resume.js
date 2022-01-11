@@ -5,7 +5,7 @@ class Skills extends Component {
     return (
       <figure className="icon">
         <a
-          href="https://drive.google.com/file/d/16uzO1dw5KTkFkOnzbr2fmHeBpb2-5fgi/view?usp=sharing"
+          href="https://drive.google.com/file/d/1JZmFLp5HS5xpbiRkCjyTUYpBHQD_drJs/view?usp=sharing"
           rel="noopener noreferrer"
           target="_blank"
         >
