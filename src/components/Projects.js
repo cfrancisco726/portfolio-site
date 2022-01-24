@@ -20,7 +20,7 @@ class Projects extends Component {
             <div className="dj_majestik">
               <div className="copy">
                 <p>
-                  <strong>Movie Trailers </strong> Responsive server side
+                  <strong>Movie Trailers: </strong> Responsive server side
                   rendered website displaying movie trailers and sorted by
                   category
                 </p>
