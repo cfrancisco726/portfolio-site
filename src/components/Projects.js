@@ -20,8 +20,9 @@ class Projects extends Component {
             <div className="dj_majestik">
               <div className="copy">
                 <p>
-                  <strong>DJ Majestik: </strong> Responsive server side rendered
-                  website displaying movie trailers and sorted by category
+                  <strong>Movie Trailers </strong> Responsive server side
+                  rendered website displaying movie trailers and sorted by
+                  category
                 </p>
                 <p>
                   <strong>Built with: </strong> React, NextJS, TailwindCSS
