@@ -32,19 +32,19 @@
 
 ## Landing Page
 
-![Example screenshot](.src/images/portfolio-landing.png)
+![Example screenshot](./src/images/portfolio-landing.png)
 
 ## About Modal
 
-![Example screenshot](.src/images/about-me-screenshot.png)
+![Example screenshot](./src/images/about-me-screenshot.png)
 
 ## Projects Modal
 
-![Example screenshot](.src/images/projects-screenshot.png)
+![Example screenshot](./src/images/projects-screenshot.png)
 
 ## Skills Modal
 
-![Example screenshot](.src/images/skills-screenshot.png)
+![Example screenshot](./src/images/skills-screenshot.png)
 
 ## Contact
 
