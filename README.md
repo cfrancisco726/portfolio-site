@@ -1,12 +1,16 @@
-# Personal Portfolio Site
+# Portfolio Website
 
 > Portfolio website for Carlo Francisco (Front End Developer)
-> Live demo [_here_] (http://www.carlofrancisco.com)
+> Live demo [_here_](http://www.carlofrancisco.com)
 
 ## Technologies Used
 
 - React
 - Material UI
+
+## Hosted on
+
+- Netlify
 
 ## Features
 
@@ -28,19 +32,19 @@
 
 ## Landing Page
 
-![Example screenshot](.src/images/portfolio-landing.png)
+(/images/portfolio-landing.png)
 
 ## About Modal
 
-![Example screenshot](.src/images/about-me-screenshot.png)
+(/images/about-me-screenshot.png)
 
 ## Projects Modal
 
-![Example screenshot](.src/images/projects-screenshot.png)
+(/images/projects-screenshot.png)
 
 ## Skills Modal
 
-![Example screenshot](.src/images/skills-screenshot.png)
+(/images/skills-screenshot.png)
 
 ## Contact
 
