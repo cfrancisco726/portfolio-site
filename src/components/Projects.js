@@ -225,7 +225,7 @@ class Projects extends Component {
                   </a>
                   &nbsp;&nbsp;|&nbsp;&nbsp;
                   <a
-                    href="https://nextgen-banner-ad-300x250.netlify.app/"
+                    href="https://github.com/cfrancisco726/NextGenBannerAd_300x250"
                     target="_blank"
                   >
                     GITHUB
