@@ -17,7 +17,7 @@ class Projects extends Component {
           <h1 className="modal-title">Projects</h1>
 
           <div className="project">
-            <div className="dj_majestik">
+            <div className="movie-trailers">
               <div className="copy">
                 <p>
                   <strong>Movie Trailers: </strong> Responsive server side
@@ -65,6 +65,8 @@ class Projects extends Component {
             </div>
           </div>
 
+          <hr />
+
           <div className="project">
             <div className="dj_majestik">
               <div className="copy">
@@ -107,21 +109,25 @@ class Projects extends Component {
             </div>
           </div>
 
+          <hr />
+
           <div className="project">
             <div className="dashboard">
-              <p>
-                <strong>Covid-19 Dashboard: </strong> Artifical Intelligence
-                model that uses predictor sliders to see how increasing or
-                decreasing restrictions affects the number of covid-19 cases.
-                Collaborated with Evolutionary Artifical Intelligence group to
-                integrate their existing model into cognizant.com and improve
-                the UI/UX.
-              </p>
+              <div className="copy">
+                <p>
+                  <strong>Covid-19 Dashboard: </strong> Artifical Intelligence
+                  model that uses predictor sliders to see how increasing or
+                  decreasing restrictions affects the number of covid-19 cases.
+                  Collaborated with Evolutionary Artifical Intelligence group to
+                  integrate their existing model into cognizant.com and improve
+                  the UI/UX.
+                </p>
 
-              <p>
-                <strong>Built with: </strong>Dash
-                <br />
-              </p>
+                <p>
+                  <strong>Built with: </strong>Dash
+                  <br />
+                </p>
+              </div>
 
               <div className="project-img">
                 <a
@@ -149,6 +155,8 @@ class Projects extends Component {
               </div>
             </div>
           </div>
+
+          <hr />
 
           <div className="project">
             <div className="nextgensmiles">
@@ -195,6 +203,8 @@ class Projects extends Component {
                 </p>
               </div>
 
+              <hr />
+
               <div className="banner_ad">
                 <p>
                   <strong>Animated Banner Ad </strong>
@@ -233,6 +243,8 @@ class Projects extends Component {
                 </p>
               </div>
 
+              <hr />
+
               <div className="banner_ad">
                 <p>
                   <strong>Animated Banner Ad </strong>
@@ -267,6 +279,8 @@ class Projects extends Component {
                   </a>
                 </p>
               </div>
+
+              <hr />
 
               <div className="email-ad">
                 <p>
@@ -306,22 +320,26 @@ class Projects extends Component {
               </div>
             </div>
           </div>
+
           <hr />
+
           <div className="project">
             <div className="wanderlust">
-              <p>
-                <strong>Wanderlust: </strong> Search for the cheapest flights
-                based on origin city, date and trip duration. This list of
-                flights is provided by the Amadeus API. You will have the
-                ability to save flight information.
-              </p>
+              <div className="copy">
+                <p>
+                  <strong>Wanderlust: </strong> Search for the cheapest flights
+                  based on origin city, date and trip duration. This list of
+                  flights is provided by the Amadeus API. You will have the
+                  ability to save flight information.
+                </p>
 
-              <p>
-                <strong>Built with: </strong> React-Redux, MongoDB, ExpressJS,
-                NodeJS and Material-UI
-                <br />
-                <strong>APIs:</strong> Google Maps and Amadeus
-              </p>
+                <p>
+                  <strong>Built with: </strong> React-Redux, MongoDB, ExpressJS,
+                  NodeJS and Material-UI
+                  <br />
+                  <strong>APIs:</strong> Google Maps and Amadeus
+                </p>
+              </div>
 
               <div className="project-img">
                 <a
@@ -359,58 +377,65 @@ class Projects extends Component {
 
           <hr />
 
-          <div className="project"></div>
-          <div className="project-2">
-            <p>
-              <strong>Mail Monkey: </strong> Allows users to send and track
-              surveys via email. A profile page displays a history of the emails
-              sent, along with a bar chart of how their customers responded.
-            </p>
-            <p>
-              <strong>Built with: </strong> React-Redux, MongoDB, ExpressJS,
-              NodeJS and MaterializeCSS
-              <br />
-              <strong>APIs:</strong> Google Oauth, Stripe and Sendgrid
-            </p>
-            <div className="project-img">
-              <a href="https://surveyapps726.herokuapp.com" target="_blank">
-                <img
-                  src={require("../images/mail_monkey_img.png")}
-                  alt="projects"
-                  width="80%"
-                  padding-top="20%"
-                />
-              </a>
-            </div>
-            <div className="project-links">
-              <p>
-                {/* <a href="https://surveyapps726.herokuapp.com" target="_blank">
+          <div className="project">
+            <div className="project-2">
+              <div className="copy">
+                <p>
+                  <strong>Mail Monkey: </strong> Allows users to send and track
+                  surveys via email. A profile page displays a history of the
+                  emails sent, along with a bar chart of how their customers
+                  responded.
+                </p>
+                <p>
+                  <strong>Built with: </strong> React-Redux, MongoDB, ExpressJS,
+                  NodeJS and MaterializeCSS
+                  <br />
+                  <strong>APIs:</strong> Google Oauth, Stripe and Sendgrid
+                </p>
+              </div>
+              <div className="project-img">
+                <a href="https://surveyapps726.herokuapp.com" target="_blank">
+                  <img
+                    src={require("../images/mail_monkey_img.png")}
+                    alt="projects"
+                    width="80%"
+                    padding-top="20%"
+                  />
+                </a>
+              </div>
+              <div className="project-links">
+                <p>
+                  {/* <a href="https://surveyapps726.herokuapp.com" target="_blank">
                   LIVE DEMO
                 </a> */}
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a
-                  href="https://github.com/cfrancisco726/MailMonkey"
-                  target="_blank"
-                >
-                  GITHUB
-                </a>
-              </p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;
+                  <a
+                    href="https://github.com/cfrancisco726/MailMonkey"
+                    target="_blank"
+                  >
+                    GITHUB
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
           <hr />
 
           <div className="project">
             <div className="vinyl-records">
-              <p>
-                <strong>Vinyl Records: </strong> A content management system
-                that allows users to purchase records. An admin panel allows the
-                site owner to add, edit, or delete inventory on the website.
-              </p>
-              <p>
-                <strong>Built with: </strong> React-Redux, MongoDB, ExpressJS,
-                NodeJS and React-Boostrap
-                <br />
-              </p>
+              <div className="copy">
+                <p>
+                  <strong>Vinyl Records: </strong> A content management system
+                  that allows users to purchase records. An admin panel allows
+                  the site owner to add, edit, or delete inventory on the
+                  website.
+                </p>
+                <p>
+                  <strong>Built with: </strong> React-Redux, MongoDB, ExpressJS,
+                  NodeJS and React-Boostrap
+                  <br />
+                </p>
+              </div>
               <div className="project-img">
                 <a href="https://vinyl-records.herokuapp.com/" target="_blank">
                   <img

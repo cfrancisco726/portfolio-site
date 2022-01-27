@@ -126,6 +126,10 @@ p {
   pointer-events: auto;
 }
 
+.modal-content {
+  display: block;
+}
+
 .modal-title {
   font-weight: 300;
   font-size: 125%;
@@ -145,9 +149,13 @@ p {
   outline: none;
 }
 
+.project .copy {
+  padding: 5% 10% 0 10%;
+}
 .project-img {
   padding-top: 10px;
   text-align: center;
+  width: 100%;
 }
 
 .project-links {
