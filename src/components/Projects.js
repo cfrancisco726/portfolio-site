@@ -203,7 +203,7 @@ class Projects extends Component {
 
               <div className="project-img">
                 <a
-                  href="https://nextgenbanner300x250.herokuapp.com/"
+                  href="https://nextgen-banner-ad-300x250.netlify.app/"
                   target="_blank"
                 >
                   <img
@@ -218,14 +218,14 @@ class Projects extends Component {
               <div className="project-links">
                 <p>
                   <a
-                    href="https://nextgenbanner300x250.herokuapp.com"
+                    href="https://nextgen-banner-ad-300x250.netlify.app/"
                     target="_blank"
                   >
                     LIVE DEMO
                   </a>
                   &nbsp;&nbsp;|&nbsp;&nbsp;
                   <a
-                    href="https://github.com/cfrancisco726/NextGenBannerAd_300x250"
+                    href="https://nextgen-banner-ad-300x250.netlify.app/"
                     target="_blank"
                   >
                     GITHUB
@@ -250,7 +250,7 @@ class Projects extends Component {
               <div className="project-links">
                 <p>
                   <a
-                    href="https://nextgenbanner728x90.herokuapp.com/"
+                    href="https://nextgen-banner-ad-728x90.netlify.app/"
                     target="_blank"
                   >
                     LIVE DEMO
@@ -269,7 +269,7 @@ class Projects extends Component {
               </div>
               <div className="project-img">
                 <a
-                  href="https://nextgensmileemail.herokuapp.com/"
+                  href="https://nextgen-smilecare-email.netlify.app/"
                   target="_blank"
                 >
                   <img
@@ -284,14 +284,14 @@ class Projects extends Component {
               <div className="project-links">
                 <p>
                   <a
-                    href="https://nextgensmileemail.herokuapp.com/"
+                    href="https://nextgen-smilecare-email.netlify.app/"
                     target="_blank"
                   >
                     LIVE DEMO
                   </a>
                   &nbsp;&nbsp;|&nbsp;&nbsp;
                   <a
-                    href="https://github.com/cfrancisco726/NextGenSmileEmail"
+                    href="https://nextgen-smilecare-email.netlify.app/l"
                     target="_blank"
                   >
                     GITHUB
