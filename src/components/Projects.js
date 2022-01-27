@@ -297,7 +297,7 @@ class Projects extends Component {
                   </a>
                   &nbsp;&nbsp;|&nbsp;&nbsp;
                   <a
-                    href="https://nextgen-smilecare-email.netlify.app/l"
+                    href="https://github.com/cfrancisco726/NextGenSmileEmail"
                     target="_blank"
                   >
                     GITHUB
