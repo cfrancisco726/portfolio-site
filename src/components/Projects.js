@@ -233,9 +233,15 @@ class Projects extends Component {
                 </p>
               </div>
 
+              <div className="banner_ad">
+                <p>
+                  <strong>Animated Banner Ad </strong>
+                </p>
+              </div>
+
               <div className="project-img">
                 <a
-                  href="https://nextgenbanner728x90.herokuapp.com/"
+                  href="https://nextgen-banner-ad-728x90.netlify.app/"
                   target="_blank"
                 >
                   <img
@@ -264,7 +270,7 @@ class Projects extends Component {
 
               <div className="email-ad">
                 <p>
-                  <strong> Email </strong>
+                  <strong> Email ad</strong>
                 </p>
               </div>
               <div className="project-img">
