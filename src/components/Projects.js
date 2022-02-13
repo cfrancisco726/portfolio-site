@@ -24,7 +24,7 @@ class Projects extends Component {
                   fullstack ecommerce application for fictious mountain bike
                   business. You can add mountain bikes to cart. Create a
                   login/profile. Select shipping and payment and checkout. Still
-                  in progress
+                  in progress.
                 </p>
                 <p>
                   <strong>Built with: </strong> React, Node, Express, MongoDB,
@@ -63,6 +63,8 @@ class Projects extends Component {
               </div>
             </div>
           </div>
+
+          <hr />
 
           <div className="project">
             <div className="movie-trailers">
