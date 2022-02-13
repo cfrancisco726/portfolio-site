@@ -17,6 +17,53 @@ class Projects extends Component {
           <h1 className="modal-title">Projects</h1>
 
           <div className="project">
+            <div className="mountain-bike-exclusives">
+              <div className="copy">
+                <p>
+                  <strong>Mountain Bike Exclusives:</strong> Responsive
+                  fullstack ecommerce application for fictious mountain bike
+                  business. You can add mountain bikes to cart. Create a
+                  login/profile. Select shipping and payment and checkout.
+                </p>
+                <p>
+                  <strong>Built with: </strong> React, Node, Express, MongoDB,
+                  React-Bootstrap
+                  <br />
+                </p>
+              </div>
+
+              <div className="project-img">
+                <a href="https://mtb-bike-shop.herokuapp.com/" target="_blank">
+                  <img
+                    src={require("../images/mountainbike-exclusives.png")}
+                    alt="projects"
+                    width="80%"
+                    padding-top="20%"
+                  />
+                </a>
+              </div>
+
+              <div className="project-links">
+                <p>
+                  <a
+                    href="https://mtb-bike-shop.herokuapp.com/"
+                    target="_blank"
+                  >
+                    LIVE DEMO
+                  </a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a
+                    href="https://github.com/cfrancisco726/mtb-bike-shop"
+                    target="_blank"
+                  >
+                    GITHUB
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="project">
             <div className="movie-trailers">
               <div className="copy">
                 <p>
