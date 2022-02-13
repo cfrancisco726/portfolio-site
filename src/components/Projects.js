@@ -23,7 +23,8 @@ class Projects extends Component {
                   <strong>Mountain Bike Exclusives:</strong> Responsive
                   fullstack ecommerce application for fictious mountain bike
                   business. You can add mountain bikes to cart. Create a
-                  login/profile. Select shipping and payment and checkout.
+                  login/profile. Select shipping and payment and checkout. Still
+                  in progress
                 </p>
                 <p>
                   <strong>Built with: </strong> React, Node, Express, MongoDB,
