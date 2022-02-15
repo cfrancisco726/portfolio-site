@@ -26,8 +26,8 @@ class Projects extends Component {
                   login/profile. Select shipping, payment and checkout.
                 </p>
                 <p>
-                  <strong>Built with: </strong> React, Node, Express, MongoDB,
-                  React-Bootstrap
+                  <strong>Built with: </strong> React, Redux hooks, Node,
+                  Express, MongoDB, React-Bootstrap
                   <br />
                 </p>
               </div>
