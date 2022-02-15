@@ -26,7 +26,7 @@ class Projects extends Component {
                   login/profile. Select shipping, payment and checkout.
                 </p>
                 <p>
-                  <strong>Built with: </strong> React, Redux hooks, Node,
+                  <strong>Built with: </strong> React, Redux Hooks, Node,
                   Express, MongoDB, React-Bootstrap
                   <br />
                 </p>
@@ -45,7 +45,7 @@ class Projects extends Component {
                 <br />
                 <a href="https://mtb-bike-shop.herokuapp.com/" target="_blank">
                   <img
-                    src={require("../images/mountainbike-footer.png")}
+                    src={require("../images/mountainbike-checkout.png")}
                     alt="projects"
                     width="80%"
                     padding-top="20%"
