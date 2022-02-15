@@ -23,8 +23,7 @@ class Projects extends Component {
                   <strong>Mountain Bike Exclusives:</strong> Responsive
                   fullstack ecommerce application for fictious mountain bike
                   business. You can add mountain bikes to cart. Create a
-                  login/profile. Select shipping, payment and checkout. Still in
-                  progress.
+                  login/profile. Select shipping, payment and checkout.
                 </p>
                 <p>
                   <strong>Built with: </strong> React, Node, Express, MongoDB,
@@ -37,6 +36,16 @@ class Projects extends Component {
                 <a href="https://mtb-bike-shop.herokuapp.com/" target="_blank">
                   <img
                     src={require("../images/mountainbike-exclusives.png")}
+                    alt="projects"
+                    width="80%"
+                    padding-top="20%"
+                  />
+                </a>
+                <br />
+                <br />
+                <a href="https://mtb-bike-shop.herokuapp.com/" target="_blank">
+                  <img
+                    src={require("../images/mountainbike-footer.png")}
                     alt="projects"
                     width="80%"
                     padding-top="20%"
