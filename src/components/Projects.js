@@ -51,6 +51,16 @@ class Projects extends Component {
                     padding-top="20%"
                   />
                 </a>
+                <br />
+                <br />
+                <a href="https://mtb-bike-shop.herokuapp.com/" target="_blank">
+                  <img
+                    src={require("../images/mountainbike-mobile.png")}
+                    alt="projects"
+                    width="40%"
+                    padding-top="20%"
+                  />
+                </a>
               </div>
 
               <div className="project-links">
